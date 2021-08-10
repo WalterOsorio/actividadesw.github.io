@@ -1,0 +1,63 @@
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Grouping Form Elements</title>
+</head>
+<body>
+    <form action="http://www.example.com.suscribe.php">
+        <fieldset>
+        <legend>Sus datos:</legend>
+        <label>Nombre:<input type="text" name="username"/></label><br/>
+        <label>Email:<input type="text" name="email"/></label>
+        
+        <form action="http://www.example.com.upload.php" method="post">
+            <p>Sube una foto de tu identificación para verificar su identidad (debe ser formato .jpg):</p>
+                <input type="file" name="user-song" /> <br/>
+                <input type="submit" value="upload"/> 
+            </form>
+
+        </fieldset>
+
+        <fieldset>
+        <legend>Su opinión:</legend>
+        <form action="http://www.example.com.profile.php">
+            <p>¿Cómo se enteraron de nosotros?
+            <select name="devices">
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Referido">Referido</option>
+            </select>
+            </p>
+        
+        <form action="http://www.example.com.profile.php">
+            <p>¿Volvería a visitarnos?
+                <br/>
+                <input type="radio" name="genre" value="Si" checked="checked"/> Si
+                <input type="radio" name="genre" value="No" checked="checked"/> No
+                <input type="radio" name="genre" value="Quizas" checked="checked"/> Quizas
+                </p>
+                </form>
+
+        <form action="http://www.example.com/comments.php">
+            <p>Comentarios:<br/>
+            <textarea name="comments" cols="20" rows="4"></textarea>
+            </p>
+            </form>
+
+        <form action="http://www.example.com.profile.php">
+            <p>
+                <input type="checkbox" name="service" value="Inscribete" checked="checked"/> Inscribete para actualizaciones
+                 por correo electrónico
+                </p>
+                </form>
+                
+        <form action="F:\Información importante\Documentos\HTML + CCS\Sena 3 trimestre\Walter\index.html" method="post">
+        
+                <input type="submit" value="Submit review"/>        
+                </form>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
